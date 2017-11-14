@@ -9,7 +9,7 @@ use yii\web\AssetBundle;
  */
 class CytoscapeAsset extends AssetBundle
 {
-    public $sourcePath = '@uraankhay/cytoscape/scr/';
+    public $sourcePath = '@uraankhay/cytoscape/src/';
 
     public $css = [
         'css/style.css',
