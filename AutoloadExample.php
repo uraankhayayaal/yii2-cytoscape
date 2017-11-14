@@ -1,8 +1,8 @@
 <?php
 
-use uraankhay\cytoscape\assets\CytoscapeAsset;
-
 namespace uraankhay\cytoscape;
+
+use uraankhay\cytoscape\assets\CytoscapeAsset;
 
 /**
  * This is just an example.
