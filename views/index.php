@@ -1,6 +1,6 @@
 <?php
 
-use yii\helpers\JSON;
+use yii\helpers\Json;
 
 ?>
 
@@ -12,7 +12,7 @@ use yii\helpers\JSON;
 
 
 <?php 
-$elements = JSON::encode($elements);
+$elements = Json::encode($elements);
 $this->registerJs(<<<JS
 var myElements = $elements;
 var cy = cytoscape({
