@@ -15,7 +15,7 @@ class CytoscapeAsset extends AssetBundle
         'css/style.css',
     ];
     public $js = [
-        'cytoscape/src/dist/cytoscape.js',
+        'cytoscape/dist/cytoscape.js',
         'js/script.js',
     ];
     public $depends = [
