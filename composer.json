@@ -1,0 +1,21 @@
+{
+    "name": "uraankhay/yii2-cytoscape",
+    "description": "Yii2 cytoscape.js extension",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","cytoscape.js","uraankhay","graph","chart"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ayaal Kaplin",
+            "email": "uraankhayayaal@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "uraankhay\\cytoscape\\": ""
+        }
+    }
+}
