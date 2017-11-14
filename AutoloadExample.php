@@ -1,5 +1,7 @@
 <?php
 
+use uraankhay\cytoscape\assets\CytoscapeAsset;
+
 namespace uraankhay\cytoscape;
 
 /**
@@ -7,8 +9,15 @@ namespace uraankhay\cytoscape;
  */
 class AutoloadExample extends \yii\base\Widget
 {
+	public function init() {
+	    parent::init();
+	    CytoscapeAsset::register( $this->getView() );
+	}
+
     public function run()
     {
-        return "Hello!";
+        return $this->render('index',[
+
+        ]);
     }
 }

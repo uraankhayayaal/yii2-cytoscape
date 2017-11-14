@@ -9,13 +9,14 @@ use yii\web\AssetBundle;
  */
 class CytoscapeAsset extends AssetBundle
 {
-    public $basePath = '../cytoscape/src';
+    public $basePath = '../';
     public $baseUrl = '@web';
     public $css = [
-        'css/site.css',
+        'css/style.css',
     ];
     public $js = [
-        'js/app.js',
+        'js/script.js',
+        'cytoscape/src/dist/cytoscape.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
